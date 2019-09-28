@@ -1,0 +1,32 @@
+<html>
+<head>
+</head>
+<body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>  
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      
+<section class="bg-light" style="padding-top:15px">
+         <div id="main" class="sectionAdmin">
+         <br><br/>
+		<br><br/>
+		<br><br/>
+		    <div class="section-center">
+               <center><div class="container">
+               <div id="iteeem" class="row"><center>
+               <h2><font face="verdana">Credit Card Validator</font></h2></center>
+			   <br>
+               <form id="submit" action="/SDE/ValidateCard" method="post" >
+			   <h3></h3> 
+			   Credit Card Number* : <input id="card_no" name="card_no" type="text" placeholder="1111 2222 3333 4444" /><br><br>
+			   Name on Credit Card : <input id="card_holder" name="card_holder" type="text" placeholder="John Doe"/><br><br>
+			   Expiration Month/Year* : <input id="expiry" name="expiry" type="text" placeholder="09/23"/><br><br>
+			   <button id="SubmitM" name="SubmitM" class="login100-form-btn">Validate Card</button>
+			   </form>
+               <br><br><br>
+			   </div></center>
+		</div>
+      </section>
+</body>
+</html>
